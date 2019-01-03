@@ -1,0 +1,32 @@
+{
+  "name": "polaris",
+  "version": "1.0.0",
+  "description": "Polaris",
+  "author": "Chris Yang",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "axios": "^0.18.0",
+    "element-ui": "^2.4.5",
+    "nuxt": "^1.0.0",
+    "partial-js": "^1.1.5",
+    "vue2-leaflet": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0"
+  }
+}
